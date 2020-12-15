@@ -1,0 +1,42 @@
+
+  // @import "base/variables";
+
+//  $size-body:1440px;
+// $width-item-sp:300px;
+
+// su dung mixin
+// @mixin width-item-sp($size-body,$width-item-sp) {
+// 	width: $size-body/$width-item-sp +px;
+// }
+
+
+@function width-item-sp($size-body:1115px,$width-item-sp:4px) {	
+	@return $size-body/$width-item-sp +px;
+}
+
+
+@mixin title-item-sp ($size-t) {
+	color: #333333;
+	font-size: $size-t;
+	line-height: 40px;
+	font-weight: 700;
+	cursor: pointer;
+	margin: 5px 0 0 0;
+	background: #f7f4f4;
+	font-family: tahoma;
+}
+
+
+@mixin nut-ct-sp() {
+	display: block;
+	margin: auto;
+	padding: 3px 18px;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
